@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
 import Nav from "@/components/nav";
 
 const inter = Inter({
@@ -32,6 +33,7 @@ export default function RootLayout({
 			>
 				<Nav />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
