@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/nav";
 
 const inter = Inter({
 	subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
 			<body
 				className={`${inter.variable} ${fraunces.variable} antialiased font-sans`}
 			>
+				<Nav />
 				{children}
 			</body>
 		</html>

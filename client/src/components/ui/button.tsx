@@ -18,13 +18,14 @@ const buttonVariants = cva(
 				secondary:
 					"bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80 border border-white/5 hover:border-white/20 transition-colors",
 				ghost: "hover:bg-accent hover:text-accent-foreground",
-				link: "text-primary underline-offset-4 hover:underline",
+				link: "text-foreground/85 font-medium before:w-full before:h-full before:absolute relative before:top-0 before:left-0 before:bg-secondary/40 z-0 before:-z-10 before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-200 before:ease-in-out before:origin-right before:hover:origin-left hover:text-white",
 			},
 			size: {
 				default: "h-14 px-6 py-3",
 				sm: "h-8 rounded-md px-3 text-xs",
 				lg: "h-15 rounded-md px-9",
 				icon: "h-12 w-12",
+				link: "p-0 rounded-none",
 			},
 		},
 		defaultVariants: {

@@ -9,7 +9,7 @@ import { ViewContainer } from "./ui/view-container";
 
 const Header = () => {
 	return (
-		<section id="header" className="mt-40">
+		<section id="header" className="mt-28">
 			<ViewContainer className="">
 				<div className="space-y-14">
 					<h1 className="font-serif text-[40px] bg-gradient-to-br from-blue-50 to-blue-300 text-transparent bg-clip-text leading-tight sm:text-5xl md:text-6xl lg:text-7xl text-center font-semibold flex flex-col justify-center items-center gap-1 sm:gap-3">
@@ -49,8 +49,8 @@ const Header = () => {
 						alt="Timeloom Demo Image"
 						className="rounded-xl w-full relative z-0"
 					/>
-					<div className="w-full h-full absolute top-0 left-0 bg-black/50 opacity-0 duration-300 z-10 group-hover:opacity-100 transition-opacity" />
-					<p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 group-hover:opacity-100 transition-all scale-90 group-hover:scale-100 duration-300 flex items-center gap-4">
+					<div className="w-full h-full absolute top-0 left-0 bg-black/70 opacity-0 duration-300 z-10 group-hover:opacity-100 transition-opacity" />
+					<p className="text-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 group-hover:opacity-100 transition-all scale-90 group-hover:scale-100 duration-300 flex items-center gap-4">
 						Checkout Toy Version <ArrowUpRight size={18} />
 					</p>
 					<div className="absolute top-1/2 w-[50%] h-[70%] bg-primary left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 blur-[130px] group-hover:scale-90 duration-300 transition-transform" />
