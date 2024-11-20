@@ -9,20 +9,23 @@ import { ViewContainer } from "./ui/view-container";
 
 const Header = () => {
 	return (
-		<section id="header" className="mt-28">
+		<section id="header" className="mt-20">
 			<ViewContainer className="">
-				<div className="space-y-14">
-					<h1 className="font-serif text-[40px] bg-gradient-to-br from-blue-50 to-blue-300 text-transparent bg-clip-text leading-tight sm:text-5xl md:text-6xl lg:text-7xl text-center font-semibold flex flex-col justify-center items-center gap-1 sm:gap-3">
+				<div className="">
+					<p className="text-secondary uppercase tracking-[3px] text-center text-sm">
+						Map Your Milestones
+					</p>
+					<h1 className="mt-8 font-serif text-[40px] bg-gradient-to-br from-blue-50 to-blue-300 text-transparent bg-clip-text leading-tight sm:text-5xl md:text-6xl lg:text-7xl text-center font-semibold flex flex-col justify-center items-center gap-1 sm:gap-3">
 						<span className="">Your Journey,</span>
 						<span className="italic">Visualized.</span>
 					</h1>
-					<p className="text-center max-w-3xl mx-auto text-foreground/75 text-base md:text-lg">
+					<p className="mt-14 text-center max-w-3xl mx-auto text-foreground/75 text-base md:text-lg">
 						Transform your personal and project timelines into
 						interactive, shareable stories. Timeloom helps you
 						capture, organize, and showcase your path with
 						simplicity and depth.
 					</p>
-					<div className="mx-auto sm:w-fit gap-4 md:gap-10 flex flex-col sm:flex-row">
+					<div className="mt-14 mx-auto sm:w-fit gap-4 md:gap-10 flex flex-col sm:flex-row">
 						<Link
 							href="#"
 							className={cn(buttonVariants(), "w-full sm:w-auto")}
